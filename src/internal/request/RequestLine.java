@@ -1,4 +1,4 @@
-package internal.request;
+package src.internal.request;
 
 public class RequestLine{
     private final String httpVersion;

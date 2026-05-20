@@ -1,7 +1,7 @@
-package internal.server;
+package src.internal.server;
 
-import internal.request.Request;
-import internal.response.Writer;
+import src.internal.request.Request;
+import src.internal.response.Writer;
 
 
 

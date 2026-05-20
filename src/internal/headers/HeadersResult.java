@@ -1,4 +1,4 @@
-package internal.headers;
+package src.internal.headers;
 
 public class HeadersResult {
 

@@ -1,12 +1,12 @@
-package internal.server;
+package src.internal.server;
 
 
-import internal.headers.Headers;
-import internal.request.Request;
-import internal.request.RequestFromReader;
-import internal.response.ResponseWriter;
-import internal.response.StatusCode;
-import internal.response.Writer;
+import src.internal.headers.Headers;
+import src.internal.request.Request;
+import src.internal.request.RequestFromReader;
+import src.internal.response.ResponseWriter;
+import src.internal.response.StatusCode;
+import src.internal.response.Writer;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

@@ -1,7 +1,7 @@
-package internal.request;
+package src.internal.request;
 
-import internal.headers.Headers;
-import internal.headers.HeadersResult;
+import src.internal.headers.Headers;
+import src.internal.headers.HeadersResult;
 import java.nio.charset.StandardCharsets;
 
 public class Request{

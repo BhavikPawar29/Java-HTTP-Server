@@ -1,13 +1,14 @@
+package src;
 
 import java.nio.charset.StandardCharsets;
 
-import internal.headers.Headers;
-import internal.request.Request;
-import internal.response.ResponseWriter;
-import internal.response.StatusCode;
-import internal.response.Writer;
-import internal.server.Handler;
-import internal.server.Server;
+import src.internal.headers.Headers;
+import src.internal.request.Request;
+import src.internal.response.ResponseWriter;
+import src.internal.response.StatusCode;
+import src.internal.response.Writer;
+import src.internal.server.Handler;
+import src.internal.server.Server;
 
 
 public class HTTPServerMain{
@@ -61,8 +62,8 @@ public class HTTPServerMain{
        headers = ResponseWriter.getDefaultHeaders(body.length);
        headers.set("content-type", "text/html");
 
-       writer.writeHeaders(headers);
        writer.writeStatus(statuscode);
+       writer.writeHeaders(headers);
        writer.writeBody(body);
     }
 }

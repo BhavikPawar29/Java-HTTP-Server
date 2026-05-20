@@ -1,7 +1,7 @@
-package internal.response;
+package src.internal.response;
 
 //import com.sun.net.httpserver.Headers;
-import internal.headers.Headers;
+import src.internal.headers.Headers;
 import java.io.IOException;
 import java.io.OutputStream;
 

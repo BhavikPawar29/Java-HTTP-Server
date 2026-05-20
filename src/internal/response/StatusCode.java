@@ -1,4 +1,4 @@
-package internal.response;
+package src.internal.response;
 
 public enum StatusCode{
     OK(200),
@@ -12,6 +12,6 @@ public enum StatusCode{
     }
 
     public int getCode(){
-        return code;
+        return this.code;
     }
 }

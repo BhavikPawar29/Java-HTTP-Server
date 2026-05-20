@@ -1,4 +1,4 @@
-package internal.headers;
+package src.internal.headers;
 
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
